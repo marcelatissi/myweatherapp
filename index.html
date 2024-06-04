@@ -4,30 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=Hello, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <title>Weather app!</title>
 </head>
   <body>
+    <div class="weather-app">
     <header>
-        <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search"/>
+        <form class="search-form">
+        <input type="search" placeholder="Enter a city..." required class="search-form-input"/>
+        <input type="submit" value="Search" class="search-form-button"/>
         </form>
     </header>
     <main>
+    <div class="weather-app-data">
     <div>  
-        <h1> London </h1>
-        <p>
+        <h1 class="weather-app-city"> London </h1>
+        <p class="weather-app-details">
         Satuday 12:00, scattered clouds
         <br>
-        Humidity: 64%, Wind: 13km/h
+        Humidity: <strong>64%</strong> , Wind: <strong>3km/h </strong> 
         </p>
-    </div>
-     <div> 🌥️ 16°C </div>
+        </div>
+        <div class="weather-app-temperature-container">
+        <div class="weather-app-icon"> 🌥️ </div>
+        <div class="weather-app-temperature"> 16 </div>
+        <div class="weather-app-unit"> °C </div></div>
+        </div>
+      </div>
     </main>
 
    <footer> This project was coded by <a href="https://github.com/marcelatissi/" target="_blank">Marcela </a> , 
     and is open-sourced on <a href="https://github.com/marcelatissi/myweatherapp" target="_blank"> GitHub</a> 
-    and hosted on <a href="https://weather-app-firstproject.netlify.app" target="_blank"> Netlify.</a></footer>
-   </body>
+    and hosted on <a href="https://weather-app-firstproject.netlify.app" target="_blank"> Netlify.</a>
+    </footer>
+   </div>
+</body>
 
 </html>
