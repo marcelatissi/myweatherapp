@@ -21,15 +21,16 @@ header {
   }
  .weather-app-icon{
     font-size: 40px;
-    margin-top: 22px;
+    margin-top: 20px;
  }
  .weather-app-temperature{
     font-size: 70px;
     font-weight: bold;
+    margin-top: 30px;
  } 
 
  .weather-app-unit{
-    margin-top: 16px;
+    margin-top: 45px;
     font-size: 20px;
 
  }
@@ -70,7 +71,6 @@ header {
   .weather-app-details strong {
     color: rgba(141, 208, 244, 0.971);
   }
-
 
   footer {
     border-top: 1px solid #f9f7fe;
