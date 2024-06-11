@@ -72,6 +72,28 @@ header {
     color: rgba(141, 208, 244, 0.971);
   }
 
+  .weather-forecast{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .weather-forescast-date{
+    margin-top: 20px;
+    text-align: left;
+  }
+  .image1{
+    text-align: left;
+    display: block;
+  }
+  .weather-forecast-temperature{
+    text-align: left;
+    font-size: 13px;
+  }
+  
+  .weather-forecast-temperature-min{
+    opacity: 0.5;
+
+  }
+
   footer {
     border-top: 1px solid #f9f7fe;
     padding: 30px 0 0 0;
